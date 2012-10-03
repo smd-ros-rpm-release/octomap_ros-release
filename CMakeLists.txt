@@ -1,10 +1,7 @@
-
 cmake_minimum_required(VERSION 2.8)
 project(octomap_ros)
 find_package(catkin)
 catkin_stack()
-
-find_package(genmsg REQUIRED)
 
 find_package(catkin REQUIRED sensor_msgs tf pcl_ros octomap_msgs)
 include_directories(${catkin_INCLUDE_DIRS})
@@ -34,6 +31,4 @@ add_library(${PROJECT_NAME} src/conversions.cpp)
 install(TARGETS ${PROJECT_NAME}  
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin)
-
-#####################
 
