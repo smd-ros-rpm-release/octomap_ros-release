@@ -1,4 +1,4 @@
-// $Id: conversions.h 3074 2012-08-24 13:21:31Z hornunga@informatik.uni-freiburg.de $
+// $Id$
 
 /**
  * OctoMap ROS integration
