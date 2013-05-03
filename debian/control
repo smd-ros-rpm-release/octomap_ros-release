@@ -1,0 +1,12 @@
+Source: ros-hydro-octomap-ros
+Section: misc
+Priority: extra
+Maintainer: Armin Hornung <HornungA@informatik.uni-freiburg.de>, Julius Kammerl <jkammerl@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-octomap, ros-hydro-octomap-msgs, ros-hydro-pcl-ros, ros-hydro-sensor-msgs, ros-hydro-tf
+Homepage: http://ros.org/wiki/octomap_ros
+Standards-Version: 3.9.2
+
+Package: ros-hydro-octomap-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-octomap, ros-hydro-octomap-msgs, ros-hydro-pcl-ros, ros-hydro-sensor-msgs, ros-hydro-tf
+Description: octomap_ros provides conversion functions between ROS / PCL and OctoMap's native types. This enables a convenvient use of the octomap package in ROS.
