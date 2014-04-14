@@ -14,8 +14,8 @@ tracks:
     release_inc: -1
     release_tag: :{version}
     ros_distro: groovy
-    vcs_type: svn
-    vcs_uri: https://alufr-ros-pkg.googlecode.com/svn/tags/stacks/octomap_ros/octomap_ros-0.2.3
+    vcs_type: git
+    vcs_uri: https://github.com/OctoMap/octomap_ros.git
     version: :{auto}
   hydro:
     actions:
