@@ -1,0 +1,60 @@
+ros-hydro-octomap-ros (0.3.1-1precise) precise; urgency=high
+
+  * Fixing #3 <https://github.com/OctoMap/octomap_ros/issues/3> (explicit instantiation in conversions.cpp)
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Tue, 15 Apr 2014 22:00:00 -0000
+
+ros-hydro-octomap-ros (0.3.0-1precise) precise; urgency=high
+
+  * Removed deprecated OctomapROS class
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Thu, 02 May 2013 22:00:00 -0000
+
+ros-hydro-octomap-ros (0.2.6-1precise) precise; urgency=high
+
+  * fixes for cmake / catkin
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Fri, 04 Jan 2013 23:00:00 -0000
+
+ros-hydro-octomap-ros (0.2.5-1precise) precise; urgency=high
+
+  * catkin fixes
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Fri, 07 Dec 2012 23:00:00 -0000
+
+ros-hydro-octomap-ros (0.2.4-1precise) precise; urgency=high
+
+  * adding include installs
+  * catkin fixes
+  * fixing octomap_msgs dependency
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Sat, 10 Nov 2012 23:00:00 -0000
+
+ros-hydro-octomap-ros (0.2.3-1precise) precise; urgency=high
+
+  * catkinizing octomap_ros
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Sun, 28 Oct 2012 23:00:00 -0000
+
+ros-hydro-octomap-ros (0.2.2-1precise) precise; urgency=high
+
+  * catkinizing octomap_ros
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Sun, 30 Sep 2012 22:00:00 -0000
+
+ros-hydro-octomap-ros (0.2.1-1precise) precise; urgency=high
+
+
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Mon, 03 Sep 2012 22:00:00 -0000
+
+ros-hydro-octomap-ros (0.2.0-1precise) precise; urgency=high
+
+  * Further renaming, improved compat. with groovy (server won't compile yet though)
+  * Updated octomap_ros to new-style stack.xml
+  * manifest / doxygen for octomap_ros & octomap_msgs
+  * deprecated OctomapROS in octomap_ros => directly use octomap lib and conversions.h
+
+ -- Armin Hornung <HornungA@informatik.uni-freiburg.de>  Thu, 23 Aug 2012 22:00:00 -0000
+
+
