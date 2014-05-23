@@ -1,4 +1,4 @@
-// $Id: OctomapROS.h 2982 2012-07-13 13:42:28Z hornunga@informatik.uni-freiburg.de $
+// $Id$
 
 /**
  * OctoMap ROS integration
