@@ -1,0 +1,12 @@
+Source: ros-groovy-octomap-ros
+Section: misc
+Priority: extra
+Maintainer: Armin Hornung <HornungA@informatik.uni-freiburg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-groovy-catkin, ros-groovy-octomap, ros-groovy-octomap-msgs, ros-groovy-pcl-ros, ros-groovy-sensor-msgs, ros-groovy-tf
+Homepage: http://ros.org/wiki/octomap_ros
+Standards-Version: 3.9.2
+
+Package: ros-groovy-octomap-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-octomap, ros-groovy-octomap-msgs, ros-groovy-pcl-ros, ros-groovy-sensor-msgs, ros-groovy-tf
+Description: octomap_ros provides conversion functions between ROS / PCL and OctoMap's native types. This enables a convenvient use of the octomap package in ROS.
